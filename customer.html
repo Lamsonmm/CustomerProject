@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer List_ML</title>
+    <!-- link to CSS file -->
+     <link rel="stylesheet" href="Forms.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Customer List</h1>
+      <table id="customer-list">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Pass</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="customer-list-item">
+            <td>Abe Abby</td>
+            <td>AbeA@abc.com</td>
+            <td>AbeA</td>
+          </tr>
+          <tr class="customer-list-item">
+            <td>Bob Batty</td>
+            <td>BobB@abc.com</td>
+            <td>BobB</td>
+          </tr>
+          <tr class="customer-list-item">
+            <td>Carter Cabby</td>
+            <td>CarterC@abc.com</td>
+            <td>cartC</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Add</h2>
+      <form id="customer-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Customer Name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="password">Pass:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="password"
+        />
+
+        <div class="button-group">
+          <button type="button">Delete</button>
+          <button type="button" id="addButton">Add</button>
+          <button type="button">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

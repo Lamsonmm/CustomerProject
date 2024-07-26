@@ -1,0 +1,89 @@
+/* CSS Style Steet for FORMS / Customer Page */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+/* the page backgroup */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Customer List  --- need to make CSS file and reference it*/
+h1 {
+  background-color: #844076;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 0;
+}
+/* Add*/
+h2 {
+  background-color: #53717d;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* <td> element is used to define a regular data cell within an HTML table */
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Green */
+th {
+  background-color: #668076;
+}
+
+/* Flex container to be vertical, making the form elements stack on top of each other in a column */
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+}
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* new color for the placeholder text */
+input#email::placeholder {
+  color: blue;
+}
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #8b74ac;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Can I get a different color for each button? Do I even care? */
+button:hover {
+  background-color: #5f090991;
+}
+
+/* buttons within that element arrange themselves in a row with equal space between */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+</style>
